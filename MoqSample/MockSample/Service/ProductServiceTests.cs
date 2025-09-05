@@ -11,7 +11,7 @@ namespace MockSample.Service
         {
             // Arrange
             var mockRepo = new Mock<IProductRepository>();
-            mockRepo.Setup(r => r.GetAll()).Returns(new List<string> { "Laptop", "Phone" });
+            mockRepo.Setup(r => r.GetAll()).Returns(["Laptop", "Phone"]);
 
             var service = new ProductService(mockRepo.Object);
 
