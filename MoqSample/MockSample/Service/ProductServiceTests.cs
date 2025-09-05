@@ -1,6 +1,6 @@
 ﻿namespace MockSample.Service
 {
-    internal class ProductServiceTests
+    public class ProductServiceTests
     {
 
     }
